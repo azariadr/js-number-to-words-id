@@ -8,6 +8,25 @@ This is a JavaScript function designed to convert numerical figures into their t
 
 The `TERBILANG()` function can be called by passing a number as an argument.
 
+### Features
+List the main features supported by your function.
+
+## Features
+
+* Converts positive whole numbers to Indonesian text.
+* Supports conversion for the number zero.
+* Handles negative numbers by prepending "Minus".
+* Supports denominations up to trillions.
+* Automatically appends "Rupiah" to the end of the conversion.
+
+## Installation
+
+As this is a standalone JavaScript function, you can simply copy and paste the `TERBILANG()` code directly into your JavaScript project.
+
+1.  Create a new JavaScript file (e.g., `terbilang.js`).
+2.  Copy the entire `TERBILANG` function code into this file.
+3.  Import or include this file into your HTML/JavaScript project.
+
 ### Examples:
 
 ```javascript
@@ -26,23 +45,3 @@ console.log(TERBILANG(-750));
 // Calling the function with a larger number
 console.log(TERBILANG(123456789));
 // Output: SERATUS DUA PULUH TIGA JUTA EMPAT RATUS LIMA PULUH ENAM RIBU TUJUH RATUS DELAPAN PULUH SEMBILAN RUPIAH
-
-### 4. Features
-List the main features supported by your function.
-
-```markdown
-## Features
-
-* Converts positive whole numbers to Indonesian text.
-* Supports conversion for the number zero.
-* Handles negative numbers by prepending "Minus".
-* Supports denominations up to trillions.
-* Automatically appends "Rupiah" to the end of the conversion.
-
-## Installation
-
-As this is a standalone JavaScript function, you can simply copy and paste the `TERBILANG()` code directly into your JavaScript project.
-
-1.  Create a new JavaScript file (e.g., `terbilang.js`).
-2.  Copy the entire `TERBILANG` function code into this file.
-3.  Import or include this file into your HTML/JavaScript project.
