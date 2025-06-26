@@ -9,10 +9,6 @@ This is a JavaScript function designed to convert numerical figures into their t
 The `TERBILANG()` function can be called by passing a number as an argument.
 
 ### Features
-List the main features supported by your function.
-
-## Features
-
 * Converts positive whole numbers to Indonesian text.
 * Supports conversion for the number zero.
 * Handles negative numbers by prepending "Minus".
